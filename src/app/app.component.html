@@ -1,0 +1,20 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<div *ngIf="users">
+<div *ngFor="let user of users">
+  <div [ngSwitch]="user.gender">
+    <div class="femaleBox" *ngSwitchCase="'f'">
+      {{user.name}}
+    </div>
+    <div class="maleBox" *ngSwitchCase="'m'">
+      {{user.name}}
+    </div>
+    <div class="defaultBox" *ngSwitchDefault>
+      {{user.name}}
+    </div>
+  </div>
+</div>
+</div>

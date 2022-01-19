@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+
+.maleBox{
+  background-color: greenyellow;
+  margin: 5px;
+}
+
+.femaleBox{
+  background-color: rgb(253, 40, 104);
+  margin: 5px;
+}
+.defaultBox{
+  background-color: aqua;
+  margin: 5px;
+}
